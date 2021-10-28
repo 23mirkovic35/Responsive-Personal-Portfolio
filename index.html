@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Icons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--CSS link-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title>Miroslav Mirković</title>
+</head>
+<body>
+
+    
+    <!--Sections-->
+    <!--Home-->
+    <section class="home" id="home">
+        <div class="home-container">
+            <div class="social-media">
+                <div class="github"><i class="uil uil-github-alt"></i><div class="tooltip">GitHub</div></div>
+                <div class="linkedin"><i class="uil uil-linkedin-alt"></i> <div class="tooltip">LinkedIn</div></div>
+                <div class="instagram"><i class="uil uil-instagram"></i><div class="tooltip">Instagram</div></div>
+                <div class="facebook"><i class="uil uil-facebook-f"></i><div class="tooltip">Facebook</div></div>
+                <div class="twitter"><i class="uil uil-twitter-alt"></i><div class="tooltip">Twitter</div></div>
+            </div>
+            <div class="text-image">
+                <div class="text-container">
+                    <div class="hello">Hi, I'm <span>Miroslav</span></div>
+                    <div class="job-title">Web developer</div>
+                    <div class="description">
+                        Final year student at the School of Electrical Engineering in Belgrade, department of Computer Science and Information Technology.
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="assets/home_pic.png">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--About-->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="title">
+                <div class="about-title-text">About Me</div>
+                <div class="title-more">who am I?</div>
+            </div>
+            <div class="image-text-cv">
+                <div class="image">
+                    <img src="assets/about_pic.JPG" alt="">
+                </div>
+                <div class="text-cv">
+                    <div class="text">Student at the School of Electrical Engineering in Belgrade, department of Computer Science and Information Technology. Completed many HTML, CCS and JavaScript courses in high school and advanced them in college.</div>
+                    <div class="cv">
+                        <a href="assets/myCV.pdf" download><button>Download CV <i class="uil uil-download-alt"></i></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Education-->
+    <section class="education" id="education">
+        <div class="education-container">
+            <div class="title">
+                <div class="top">Education</div>
+                <div class="bottom">my personal journey</div>
+            </div>
+            <div class="education-content">
+                <!--1st education-->
+                <div class="education-data">
+                    <div>
+                        <div class="education-name">
+                            Laza Kostić
+                        </div>
+                        <div class="education-title">
+                            Elementary school 
+                        </div>
+                        <div class="education-place">
+                            <i class="uil uil-location-point"></i>  Belgrade, Serbia
+                        </div>
+                        <div class="education-time">
+                            <i class="uil uil-calendar-alt"></i>  2006 - 2014
+                        </div>
+                    </div>
+                    <div>
+                        <span class="educatuin-rounder"></span>
+                        <span class="education-line"></span>
+                    </div>
+                </div>
+                <!--2nd education-->
+                <div class="education-data">
+                    <div></div>
+                    <div>
+                        <span class="educatuin-rounder"></span>
+                        <span class="education-line"></span>
+                    </div>
+                    <div>
+                        <div class="education-name">
+                            Nikola Tesla
+                        </div>
+                        <div class="education-title">
+                            Electrical Engineering High School
+                        </div>
+                        <div class="education-place">
+                            <i class="uil uil-location-point"></i>  Belgrade, Serbia
+                        </div>
+                        <div class="education-time">
+                            <i class="uil uil-calendar-alt"></i>  2014 - 2018
+                        </div>
+                    </div>
+
+                </div>
+                <!--3th education-->
+                <div class="education-data">
+                    <div>
+                        <div class="education-name">
+                            School of Electrical Engineering
+                        </div>
+                        <div class="education-title">
+                            University Of Belgrade
+                        </div>
+                        <div class="education-place">
+                            <i class="uil uil-location-point"></i>  Belgrade, Serbia
+                        </div>
+                        <div class="education-time">
+                            <i class="uil uil-calendar-alt"></i> 2018 - 
+                        </div>
+                    </div>
+                    <div>
+                        <span class="educatuin-rounder"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Skills-->
+    <section class="skills" id="skills">
+        <div class="skills-container">
+            <div class="title">
+                <div class="top">Skills</div>
+                <div class="bottom">my knowledge</div>
+            </div>
+            <div class="skills-content">
+                <div class="skills">
+                    <div class="name">
+                        <div class="skill-name"><i class="uil uil-brackets-curly"></i><label>Frontend developer</label></div>
+                        <div class="arrow-down" onclick="show_skills(0)"><i class="uil uil-angle-down"></i></div>
+                        <div class="arrow-up" onclick="show_skills(0)"><i class="uil uil-angle-up"></i></div>
+                    </div>
+                    <div class="programs">
+                        <div class="program">
+                            <div class="program-name">HTML</div>
+                            <div class="procentage">
+                                <div class="procentage-scale">
+                                    <span class="empty-scale"></span>
+                                    <span class="fill-html"></span>
+                                </div>
+                                <div class="procentage-value">
+                                    90%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <div class="program-name">CSS</div>
+                            <div class="procentage">
+                                <div class="procentage-scale">
+                                    <span class="empty-scale"></span>
+                                    <span class="fill-css"></span>
+                                </div>
+                                <div class="procentage-value">
+                                    80%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <div class="program-name">JavaScript</div>
+                            <div class="procentage">
+                                <div class="procentage-scale">
+                                    <span class="empty-scale"></span>
+                                    <span class="fill-js"></span>
+                                </div>
+                                <div class="procentage-value">
+                                    70%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <div class="program-name">TypeScript</div>
+                            <div class="procentage">
+                                <div class="procentage-scale">
+                                    <span class="empty-scale"></span>
+                                    <span class="fill-ts"></span>
+                                </div>
+                                <div class="procentage-value">
+                                    70%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <div class="program-name">Angular</div>
+                            <div class="procentage">
+                                <div class="procentage-scale">
+                                    <span class="empty-scale"></span>
+                                    <span class="fill-angular"></span>
+                                </div>
+                                <div class="procentage-value">
+                                    60%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="name">
+                        <div class="skill-name" ><i class="uil uil-server-network"></i><label>Backend developer</label></div>
+                        <div class="arrow-down" onclick="show_skills(1)"><i class="uil uil-angle-down"></i></div>
+                        <div class="arrow-up" onclick="show_skills(1)"><i class="uil uil-angle-up"></i></div>
+                    </div>
+                    <div class="programs">
+                        <div class="program">
+                            <div class="program-name">Node JS</div>
+                            <div class="procentage">
+                                <div class="procentage-scale">
+                                    <span class="empty-scale"></span>
+                                    <span class="fill-nodejs"></span>
+                                </div>
+                                <div class="procentage-value">
+                                    60%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <div class="program-name">PHP</div>
+                            <div class="procentage">
+                                <div class="procentage-scale">
+                                    <span class="empty-scale"></span>
+                                    <span class="fill-php"></span>
+                                </div>
+                                <div class="procentage-value">
+                                    40%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="name">
+                        <div class="skill-name"><i class="uil uil-swatchbook"></i><label>Designer</label></div>
+                        <div class="arrow-down" onclick="show_skills(2)"><i class="uil uil-angle-down"></i></div>
+                        <div class="arrow-up" onclick="show_skills(2)"><i class="uil uil-angle-up"></i></div>
+                    </div>
+                    <div class="programs">
+                        <div class="program">
+                            <div class="program-name">Photoshop</div>
+                            <div class="procentage">
+                                <div class="procentage-scale">
+                                    <span class="empty-scale"></span>
+                                    <span class="fill-photoshop"></span>
+                                </div>
+                                <div class="procentage-value">
+                                    65%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <div class="program-name">Figma</div>
+                            <div class="procentage">
+                                <div class="procentage-scale">
+                                    <span class="empty-scale"></span>
+                                    <span class="fill-figma"></span>
+                                </div>
+                                <div class="procentage-value">
+                                    45%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="title">
+                <div class="top">Contact me</div>
+                <div class="bottom">ask a question</div>
+            </div>
+            <div class="contact-content">
+                <div class="my-data">
+                    <div class="phone-number">
+                        <div class="phone-icon">
+                            <i class="uil uil-phone"></i>
+                        </div>
+                        <div class="my-phone">
+                            <div class="phone-title">Call Me</div>
+                            <div class="my-number">555-333</div>
+                        </div>
+                    </div>
+                    <div class="email">
+                        <div class="email-icon">
+                            <i class="uil uil-envelope-alt"></i>
+                        </div>
+                        <div class="my-email">
+                            <div class="email-title">E-mail</div>
+                            <div class="my-address">miroslavmirkovic99@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <div class="location-icon">
+                            <i class="uil uil-location-point"></i>
+                        </div>
+                        <div class="my-location">
+                            <div class="location-title">Location</div>
+                            <div class="my-home">Belgrade - Bul. Arsenija Čarnojevića #123</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-data">
+                    <div class="name-email">
+                        <div class="name">
+                            <input type="text" id="your-name" placeholder="Name">
+                        </div>
+                        <div class="email">
+                            <input type="text" id="your-email" placeholder="Email address">
+                        </div>
+                    </div>
+                    <div class="message">
+                        <textarea id="your-message" name="w3review" rows="6" cols="50" placeholder="Message"></textarea>
+                    </div>
+                    <div class="send-message">
+                        <button>Send <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            © 2021 Miroslav Mirković All Rights Reserved
+        </div>
+    </section>
+    <nav>
+        <div class="logo">Miroslav <span>Mirković</span></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!--Menu bar bottom-->
+    <div class="mini-bar">
+        <div class="nav-links">
+            <div class="bottom home">
+                <a href="#home">
+                    <i class="uil uil-estate"></i>
+                    <div class="title">Home</div>
+                </a>
+            </div>
+            <div class="bottom about">
+                <a href="#about">
+                    <i class="uil uil-user"></i>
+                    <div class="title">About</div>
+                </a>
+            </div>
+            <div class="bottom education">
+                <a href="#education">
+                    <i class="uil uil-graduation-cap"></i>
+                    <div class="title">Education</div>
+                </a>
+            </div>
+            <div class="bottom skills">
+                <a href="#skills">
+                    <i class="uil uil-file-alt"></i>
+                    <div class="title">Skills</div>
+                </a>
+            </div>
+            <div class="bottom contact">
+                <a href="#contact">
+                    <i class="uil uil-message"></i>
+                    <div class="title">Contact</div>
+                </a>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="logo">Miroslav <span>Mirković</span></div>
+            <div class="open-menu" onclick="open_menu()"><i class="uil uil-apps"></i></div>
+            <div class="close-menu" onclick="close_menu()"><i class="uil uil-multiply"></i></div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
